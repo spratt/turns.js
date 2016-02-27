@@ -11,6 +11,12 @@
          "Player" : "Alexandre",
          "AC"     : 4
      }},
+    {"type"   : "PC",
+     "name"   : "C",
+     "info"   : {
+         "Player" : "Michael",
+         "AC"     : 4
+     }},
     {"type"   : "NPC",
      "name"   : "Goblin",
      "info" : {
