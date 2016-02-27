@@ -12,20 +12,21 @@
 <body>
 
   <h2>Turn Order</h2>
+  <button id="clear-turn-order">Clear</button>
   <div id="turn-box" class="draggable-box">
-    <ul id="turn-list" class="draggable-box"></ul>
+    <ul id="turn-list" class="sortable"></ul>
   </div>
 
   <h2>Players</h2>
-  <div id="player-box" class="draggable-box">
-    <ul id="player-list" class="sortable"></ul>
+  <button id="add-all-players">Add All</button>
+  <div id="Player-box" class="draggable-box">
+    <ul id="Player-list" class="sortable Player-NPC-lists"></ul>
   </div>
 
   <h2>NPCs</h2>
-  <div id="npc-box" class="draggable-box">
-    <ul id="npc-list" class="sortable"></ul>
+  <div id="NPC-box" class="draggable-box">
+    <ul id="NPC-list" class="sortable Player-NPC-lists"></ul>
   </div>
-
   
   <script src="turns.js"></script>
 </body>

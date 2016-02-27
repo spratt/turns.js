@@ -1,0 +1,17 @@
+[
+    {"type"   : "Player",
+     "name"   : "A",
+     "player" : "Oliver"}
+    ,
+    {"type"   : "Player",
+     "name"   : "B",
+     "player" : "Alexandre"}
+    ,
+    {"type"   : "NPC",
+     "name"   : "Goblin",
+     "player" : "Simon"}
+    ,
+    {"type"   : "NPC",
+     "name"   : "Kobold",
+     "player" : "Simon"}
+]

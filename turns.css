@@ -3,13 +3,31 @@ li {
    -moz-box-sizing: border-box;
    box-sizing: border-box;
 
-   float   : left;
-   padding : 15px; /* this will be applied internally, due to 
-                      box-sizing property */
-   overflow: hidden;
+   display: inline-block;
+   list-style-type: none;
+   padding: 5px;
+   min-height: 2em;
+   border: solid black 1px;
+   width: 8em;
+   background-color: white;
 }
 
 .draggable-box {
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+ul {
+    padding: 5px;
+    border: solid black 1px;
+    min-height: 2em;
+    cursor: default;
+}
+
+.Player-card {
+    background-color: LightSkyBlue;
+}
+
+.NPC-card {
+    background-color: DarkOrange;
 }

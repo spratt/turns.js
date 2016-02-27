@@ -20,32 +20,38 @@
         }
     }
 
-    function make_player_card(player) {
-        var card= $('<li>' + player.player + '</li>')
+    function make_card(ob) {
+        var container = $('<span>');
+        var titlebar = $('<div>')
+            .append(ob.type + ': ' + ob.name)
             .addClass('ui-state-default');
-        $('#player-list').append(card);
-    }
-
-    function make_npc_card(npc) {
-        var card= $('<li>' + npc.type + '</li>')
-            .addClass('ui-state-default');
-        $('#npc-list').append(card);
+        container.append(titlebar);
+        container.append('<div>Player: ' + ob.player + '</div>')
+        var card= $('<li>')
+            .append(container)
+            .addClass(ob.type + '-card');
+        $('#' + ob.type + '-list').append(card);
     }
     
     (function init() {
-        get_json('PCs.json', function(PCs_json) {
-            PCs_json.forEach(make_player_card);
-        });
-        get_json('NPCs.json', function(NPCs_json) {
-            NPCs_json.forEach(make_npc_card);
+        get_json('data.json', function(data) {
+            data.forEach(make_card);
         });
 
         $(function() {
-            $( ".sortable" ).sortable({
-                revert: true,
-                axis: "x"
+            $( '#turn-list' ).sortable({
+                connectWith: '.Player-NPC-lists'
+            }).disableSelection();
+            $( '.Player-NPC-lists' ).sortable({
+                connectWith: '#turn-list'
+            }).disableSelection();
+            $( '#add-all-players' ).click(function() {
+                $('.Player-card').appendTo('#turn-list');
             });
-            $( "ul, li" ).disableSelection();
+            $( '#clear-turn-order' ).click(function() {
+                $('.Player-card').appendTo('#Player-list');
+                $('.NPC-card').appendTo('#NPC-list');
+            });
         });
     })();
 }).call( this );
