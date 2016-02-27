@@ -26,5 +26,15 @@
      "name"   : "Kobold",
      "info" : {
          "AC" : 2
+     }},
+    {"type"   : "NPC",
+     "name"   : "Dragon",
+     "info" : {
+         "AC" : 99
+     }},
+    {"type"   : "NPC",
+     "name"   : "Womp Rat",
+     "info" : {
+         "AC" : 2
      }}
 ]

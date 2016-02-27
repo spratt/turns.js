@@ -1,20 +1,11 @@
 li {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-
    display: inline-block;
    list-style-type: none;
    min-height: 2em;
    border: solid black 1px;
    width: 8em;
    background-color: white;
-    vertical-align: top;
-}
-
-.draggable-box {
-    overflow-x: auto;
-    overflow-y: hidden;
+   vertical-align: top;
 }
 
 ul {
@@ -22,6 +13,9 @@ ul {
     border: solid black 1px;
     min-height: 2em;
     cursor: default;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .PC-card {
