@@ -1,17 +1,24 @@
 [
-    {"type"   : "Player",
+    {"type"   : "PC",
      "name"   : "A",
-     "player" : "Oliver"}
-    ,
-    {"type"   : "Player",
+     "info"   : {
+         "Player" : "Oliver",
+         "AC"     : 5
+     }},
+    {"type"   : "PC",
      "name"   : "B",
-     "player" : "Alexandre"}
-    ,
+     "info"   : {
+         "Player" : "Alexandre",
+         "AC"     : 4
+     }},
     {"type"   : "NPC",
      "name"   : "Goblin",
-     "player" : "Simon"}
-    ,
+     "info" : {
+         "AC" : 3
+     }},
     {"type"   : "NPC",
      "name"   : "Kobold",
-     "player" : "Simon"}
+     "info" : {
+         "AC" : 2
+     }}
 ]

@@ -26,9 +26,10 @@
             .append(ob.type + ': ' + ob.name)
             .addClass('ui-state-default');
         container.append(titlebar);
-        var info = $('<div>')
-            .append('Player: ' + ob.player)
-            .addClass('info');
+        var info = $('<div>').addClass('info');
+        for(var key in ob.info) {
+            info.append('<div>' + key + ': ' + ob.info[key] + '</div>');
+        }
         container.append(info);
         var card= $('<li>')
             .append(container)
@@ -43,16 +44,16 @@
 
         $(function() {
             $( '#turn-list' ).sortable({
-                connectWith: '.Player-NPC-lists'
+                connectWith: '.PC-NPC-lists'
             }).disableSelection();
-            $( '.Player-NPC-lists' ).sortable({
+            $( '.PC-NPC-lists' ).sortable({
                 connectWith: '#turn-list'
             }).disableSelection();
             $( '#add-all-players' ).click(function() {
-                $('.Player-card').appendTo('#turn-list');
+                $('.PC-card').appendTo('#turn-list');
             });
             $( '#clear-turn-order' ).click(function() {
-                $('.Player-card').appendTo('#Player-list');
+                $('.PC-card').appendTo('#PC-list');
                 $('.NPC-card').appendTo('#NPC-list');
             });
             $( '#next-turn' ).click(function() {

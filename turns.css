@@ -9,6 +9,7 @@ li {
    border: solid black 1px;
    width: 8em;
    background-color: white;
+    vertical-align: top;
 }
 
 .draggable-box {
@@ -23,7 +24,7 @@ ul {
     cursor: default;
 }
 
-.Player-card {
+.PC-card {
     background-color: LightSkyBlue;
 }
 
