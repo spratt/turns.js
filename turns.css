@@ -5,7 +5,6 @@ li {
 
    display: inline-block;
    list-style-type: none;
-   padding: 5px;
    min-height: 2em;
    border: solid black 1px;
    width: 8em;
@@ -30,4 +29,8 @@ ul {
 
 .NPC-card {
     background-color: DarkOrange;
+}
+
+.ui-state-default, .info {
+    padding: 5px;
 }

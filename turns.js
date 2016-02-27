@@ -26,7 +26,10 @@
             .append(ob.type + ': ' + ob.name)
             .addClass('ui-state-default');
         container.append(titlebar);
-        container.append('<div>Player: ' + ob.player + '</div>')
+        var info = $('<div>')
+            .append('Player: ' + ob.player)
+            .addClass('info');
+        container.append(info);
         var card= $('<li>')
             .append(container)
             .addClass(ob.type + '-card');
