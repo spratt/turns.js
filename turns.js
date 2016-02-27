@@ -55,6 +55,11 @@
                 $('.Player-card').appendTo('#Player-list');
                 $('.NPC-card').appendTo('#NPC-list');
             });
+            $( '#next-turn' ).click(function() {
+                var first = $('#turn-list :first-child').first();
+                console.log(first);
+                first.appendTo('#turn-list');
+            });
         });
     })();
 }).call( this );
