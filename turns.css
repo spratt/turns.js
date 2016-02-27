@@ -1,0 +1,15 @@
+li {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+   float   : left;
+   padding : 15px; /* this will be applied internally, due to 
+                      box-sizing property */
+   overflow: hidden;
+}
+
+.draggable-box {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
