@@ -1,40 +1,43 @@
 [
     {"type"   : "PC",
-     "name"   : "A",
+     "name"   : "Rapheleon",
      "info"   : {
-         "Player" : "Oliver",
-         "AC"     : 5
+         "Player" : "Oliver"
      }},
     {"type"   : "PC",
-     "name"   : "B",
+     "name"   : "Bran",
      "info"   : {
-         "Player" : "Alexandre",
-         "AC"     : 4
+         "Player" : "Alexandre"
      }},
     {"type"   : "PC",
-     "name"   : "C",
+     "name"   : "Urbanist",
      "info"   : {
-         "Player" : "Michael",
-         "AC"     : 4
+         "Player" : "Michael"
+     }},
+    {"type"   : "PC",
+     "name"   : "Anja",
+     "info"   : {
+         "Player" : "Elsa"
+     }},
+    {"type"   : "PC",
+     "name"   : "Artemis",
+     "info"   : {
+         "Player" : "Alexis"
      }},
     {"type"   : "NPC",
      "name"   : "Goblin",
      "info" : {
-         "AC" : 3
      }},
     {"type"   : "NPC",
      "name"   : "Kobold",
      "info" : {
-         "AC" : 2
      }},
     {"type"   : "NPC",
      "name"   : "Dragon",
      "info" : {
-         "AC" : 99
      }},
     {"type"   : "NPC",
      "name"   : "Womp Rat",
      "info" : {
-         "AC" : 2
      }}
 ]
