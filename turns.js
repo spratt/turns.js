@@ -52,6 +52,9 @@
             $( '#add-all-players' ).click(function() {
                 $('.PC-card').appendTo('#turn-list');
             });
+            $( '#add-all-npcs' ).click(function() {
+                $('.NPC-card').appendTo('#turn-list');
+            });
             $( '#clear-turn-order' ).click(function() {
                 $('.PC-card').appendTo('#PC-list');
                 $('.NPC-card').appendTo('#NPC-list');
