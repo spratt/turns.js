@@ -1,43 +1,71 @@
 [
-    {"type"   : "PC",
-     "name"   : "Rapheleon",
-     "info"   : {
-         "Player" : "Oliver"
-     }},
-    {"type"   : "PC",
-     "name"   : "Bran",
-     "info"   : {
-         "Player" : "Alexandre"
-     }},
-    {"type"   : "PC",
-     "name"   : "Urbanist",
-     "info"   : {
-         "Player" : "Michael"
-     }},
-    {"type"   : "PC",
-     "name"   : "Anja",
-     "info"   : {
-         "Player" : "Elsa"
-     }},
-    {"type"   : "PC",
-     "name"   : "Artemis",
-     "info"   : {
-         "Player" : "Alexis"
-     }},
-    {"type"   : "NPC",
-     "name"   : "Goblin",
-     "info" : {
-     }},
-    {"type"   : "NPC",
-     "name"   : "Kobold",
-     "info" : {
-     }},
-    {"type"   : "NPC",
-     "name"   : "Dragon",
-     "info" : {
-     }},
-    {"type"   : "NPC",
-     "name"   : "Womp Rat",
-     "info" : {
-     }}
+    {
+        "type": "PC",
+        "name": "Brasstongue",
+        "info": {
+            "Player": "Loqui"
+        }
+    },
+    {
+        "type": "PC",
+        "name": "Ielenia",
+        "info": {
+            "Player": "Caitlin"
+        }
+    },
+    {
+        "type": "PC",
+        "name": "Nikolah",
+        "info": {
+            "Player": "Dae"
+        }
+    },
+    {
+        "type": "PC",
+        "name": "Aeon",
+        "info": {
+            "Player": "Pixi"
+        }
+    },
+    {
+        "type": "PC",
+        "name": "Baz",
+        "info": {
+            "Player": "Shellie"
+        }
+    },
+    {
+        "type": "PC",
+        "name": "Gaba",
+        "info": {
+            "Player": "Moose"
+        }
+    },
+    {
+        "type":"PC",
+        "name":"Lance",
+        "info": {
+            "Player": "Ygensand"
+        } 
+    },
+    {
+        "type": "NPC",
+        "name": "Goblin",
+        "info": {}
+    },
+    {
+        "type": "NPC",
+        "name": "Kobold",
+        "info": {}
+    },
+    {
+        "type": "NPC",
+        "name": "Dragon",
+        "info": {}
+    },
+    {
+        "type": "NPC",
+        "name": "Womp Rat",
+        "info": {}
+    }
 ]
